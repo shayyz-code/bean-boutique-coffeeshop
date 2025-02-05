@@ -56,10 +56,27 @@
 }
 
 .videos-block .videos-wrapper {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 0.5rem;
+}
+
+.videos-block .videos-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 16rem 10rem rgb(103, 123, 250);
+  z-index: -1;
+}
+
+@media (prefers-color-scheme: dark) {
+  .videos-block .videos-wrapper::after {
+    box-shadow: 0 0 16rem 10rem var(--primary-color);
+  }
 }
 
 .videos-block .videos-wrapper video {
