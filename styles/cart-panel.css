@@ -1,0 +1,136 @@
+.cart-panel {
+  position: fixed;
+  top: 50%;
+  right: -11rem;
+  width: 80%;
+  max-width: 450px;
+  height: calc(100vh - 4rem);
+  padding: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 12rem;
+  background: var(--background-color);
+  visibility: visible;
+  border-top-left-radius: var(--border-radius);
+  border-bottom-left-radius: var(--border-radius);
+  transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transform: translate(100%, -50%);
+  -webkit-transform: translate(100%, -50%);
+  z-index: 10;
+}
+
+.cart-panel .cart-nav {
+  display: flex;
+  justify-content: right;
+}
+
+.cart-panel .cart-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: calc(100vh - 7rem);
+  max-height: 100vh;
+  overflow-y: scroll;
+}
+
+.cart-panel .cart-items {
+  margin: 2rem 0;
+  width: 100%;
+  padding: 1rem;
+  background: var(--secondary-color);
+  border-radius: var(--border-radius);
+  border-spacing: 0;
+}
+
+.cart-panel .cart-items thead th {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--primary-color);
+}
+
+.cart-panel .cart-items tbody tr {
+  border-radius: var(--border-radius);
+  transition: 0.3s ease-out;
+}
+
+.cart-panel .cart-items tbody tr:hover {
+  background: var(--secondary-color);
+}
+
+.cart-panel .cart-items tbody tr td {
+  padding: 10px 5px;
+}
+
+.table-t-left {
+  text-align: left;
+}
+
+.table-t-center {
+  text-align: center;
+}
+
+.table-t-right {
+  text-align: right;
+}
+
+.table-td-quantity {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90px;
+}
+
+.table-td-quantity span {
+  min-width: 20px;
+}
+
+.cart-panel .cart-info {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 1rem;
+  background: var(--secondary-color);
+  padding: 1rem;
+  border-radius: var(--border-radius);
+}
+
+.cart-panel .cart-info-offer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.cart-panel .cart-info-offer .offer-count #n-offer {
+  color: var(--primary-color);
+}
+
+.cart-panel .cart-info ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  list-style: none;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  color: var(--primary-color);
+}
+
+.cart-panel button {
+  color: #fff;
+}
+
+.cart-panel button[class^="textbtn-"] {
+  color: #000;
+}
+
+.cart-panel button:not(.cart-panel button[class^="textbtn-"]) {
+  background: #000;
+}
+
+@media (prefers-color-scheme: dark) {
+  .cart-panel button[class^="textbtn-"] {
+    color: #fff;
+  }
+  .cart-panel button:not(.cart-panel button[class^="textbtn-"]) {
+    background: var(--primary-color);
+  }
+}

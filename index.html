@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bean Boutique</title>
+    <meta
+      name="description"
+      content="The Best Coffeeshop in the Neighbourhood"
+    />
+    <meta name="keywords" content="cafe, coffee, brewing equipments,beans" />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Aung Min Khant" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="beanboutique.amk" />
+    <meta property="og:title" content="Bean Boutique" />
+    <meta
+      property="og:description"
+      content="The Best Coffeeshop in the Neighbourhood"
+    />
+    <meta property="og:image" content="https://beanboutique.amk/meta.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="beanboutique.amk" />
+    <meta property="twitter:title" content="Bean Boutique" />
+    <meta
+      property="twitter:description"
+      content="The Best Coffeeshop in the Neighbourhood"
+    />
+    <meta
+      property="twitter:image"
+      content="https://beanboutique.amk/meta.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/images/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/images/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/images/favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/images/favicon_io/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/9e64bcb56c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/styles/app-bg.css" />
+    <link rel="stylesheet" href="/styles/main.css" />
+    <link rel="stylesheet" href="/styles/index.css" />
+    <link rel="stylesheet" href="/styles/cart-panel.css" />
+    <script src="/scripts/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"></script>
+  </head>
+  <body class="font-onest-normal">
+    <div id="particles-js" class="app-bg bg"></div>
+
+    <!-- Header and Navigation Bar -->
+    <header class="block bg-blur">
+      <nav class="font-onest-semibold">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li data-links="Beans,Equipments"><a href="#">Products</a></li>
+          <li><a href="/pages/events.html">Events</a></li>
+          <li><a href="/pages/offers.html">Offers</a></li>
+        </ul>
+        <ul>
+          <li>
+            <button id="account-a" onclick="openWelcomeModal()">
+              <i class="fa-solid fa-user"></i>
+            </button>
+          </li>
+          <li>
+            <button id="cart-a" onclick="openCart()">
+              <i class="fa-solid fa-bag-shopping"></i>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Slideshow Main Section -->
+    <section class="block main-block bg-blur">
+      <div>
+        <h1 class="font-onest-black">Bean Boutique Coffee</h1>
+        <p>Discover the best coffee beans in the neighbourhood.</p>
+        <img src="/images/coffee-beans.png" alt="coffee beans" />
+        <button
+          class="btn-primary font-onest-semibold"
+          onclick="openWelcomeModal()"
+        >
+          <span>Sign Up</span>
+          <i class="fa-solid fa-mug-hot"></i>
+        </button>
+      </div>
+      <div class="slideshow-wrapper">
+        <div class="slideshow">
+          <img src="images/main.png" alt="Coffee poster" />
+          <img src="images/sec.png" alt="Coffee poster" />
+          <img src="images/third.png" alt="Coffee poster" />
+          <ul class="slideshow-indicator">
+            <li id="indicator-1"></li>
+            <li id="indicator-2"></li>
+            <li id="indicator-3"></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Informative Sections -->
+    <section class="block sec-block bg-blur">
+      <div>
+        <h2>Our Coffee</h2>
+        <p>
+          Discover our wide range of coffee beans sourced from the best regions
+          around the world.
+        </p>
+        <a href="/pages/products.html?query=beans" class="link-go-beans"
+          >See More</a
+        >
+      </div>
+      <div>
+        <h2>Brewing Equipment</h2>
+        <p>
+          Explore our selection of top-quality brewing equipment to make the
+          perfect cup of coffee.
+        </p>
+        <a
+          href="/pages/products.html?query=equipments"
+          class="link-go-equipments"
+          >See More</a
+        >
+      </div>
+      <div>
+        <h2>Community Events</h2>
+        <p>
+          Join our community events and connect with fellow coffee enthusiasts.
+        </p>
+        <a href="/pages/events.html" class="link-go-events">See More</a>
+      </div>
+    </section>
+
+    <section class="block main-block videos-block bg-blur">
+      <div>
+        <h2>At Bean Boutique Coffeeshop,</h2>
+        <p>
+          We&apos;re all about bold flavors, fresh brews, and good vibes.&nbsp;
+          Every sip is smooth, rich, and unforgettable.
+          <span class="highlight-fav"
+            >Welcome to your new favorite coffee spot</span
+          >.
+        </p>
+      </div>
+      <div class="videos-wrapper">
+        <video id="video-first" muted loop autoplay>
+          <source src="/videos/customers.mp4" />
+        </video>
+        <video id="video-sec" muted loop autoplay>
+          <source src="/videos/hot-chocolate.mp4" />
+        </video>
+        <video id="video-third" muted loop autoplay>
+          <source src="/videos/side-view-cleaning.mp4" />
+        </video>
+      </div>
+    </section>
+
+    <section class="block contact-block bg-blur">
+      <div>
+        <h2>Contact Us</h2>
+        <p>
+          📍 Block-2, Unit-3, Star Light, Mingalar Mandalay, Street 73rd St,
+          Mandalay
+        </p>
+        <p>📞 +959765072801</p>
+      </div>
+      <div>
+        <iframe
+          class="gmap_iframe"
+          src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=m.s.tcollege2&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+        >
+        </iframe>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blur">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/pages/products.html">Products</a></li>
+        <li><a href="/pages/events.html">Events</a></li>
+        <li><a href="/pages/offers.html">Offers</a></li>
+      </ul>
+      <div>
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.snapchat.com/"
+              ><i class="fa-brands fa-snapchat"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.tiktok.com/"
+              ><i class="fa-brands fa-tiktok"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.whatsapp.com/"
+              ><i class="fa-brands fa-whatsapp"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.discord.com/"
+              ><i class="fa-brands fa-discord"></i
+            ></a>
+          </li>
+        </ul>
+        <p>&copy; 2025 Bean Boutique. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="/scripts/particles.js"></script>
+    <script src="/scripts/bg.js"></script>
+    <script src="/scripts/products.js"></script>
+    <script src="/scripts/cart.js"></script>
+    <script src="/scripts/security.js"></script>
+    <script src="/scripts/main.js"></script>
+    <script src="/scripts/slideshow.js"></script>
+  </body>
+</html>

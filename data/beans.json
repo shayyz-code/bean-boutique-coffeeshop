@@ -1,0 +1,65 @@
+[
+  {
+    "id": "cs001",
+    "name": "Highland Estate Blend",
+    "description": "A rich and smooth blend sourced from local highland coffee farms.",
+    "tastingNotes": ["Dark Chocolate", "Hazelnut", "Toffee"],
+    "recommendedBrewingMethods": ["Espresso", "French Press", "Moka Pot"],
+    "price": 15.99,
+    "img": "/images/beans/highland-estate-blend.png"
+  },
+  {
+    "id": "cs002",
+    "name": "Sunrise Mountain Single-Origin",
+    "description": "A vibrant and fruity coffee grown on a single estate in the region's mountain ranges.",
+    "tastingNotes": ["Tropical Fruits", "Honey", "Citrus"],
+    "recommendedBrewingMethods": ["Pour-over", "Aeropress", "Cold Brew"],
+    "price": 18.49,
+    "img": "/images/beans/sunrise-mountain-single-origin.png"
+  },
+  {
+    "id": "cs003",
+    "name": "Coastal Reserve",
+    "description": "A medium-bodied coffee from coastal plantations, known for its balanced flavor profile.",
+    "tastingNotes": ["Caramel", "Berry", "Nutty"],
+    "recommendedBrewingMethods": ["Drip Coffee", "French Press", "Cold Brew"],
+    "price": 16.25,
+    "img": "/images/beans/coastal-reserve.png"
+  },
+  {
+    "id": "cs004",
+    "name": "Rainforest Reserve",
+    "description": "Shade-grown coffee from local rainforest farms, offering an earthy and exotic taste.",
+    "tastingNotes": ["Earthy", "Spices", "Brown Sugar"],
+    "recommendedBrewingMethods": ["Espresso", "Moka Pot", "French Press"],
+    "price": 17.75,
+    "img": "/images/beans/rainforest-reserve.png"
+  },
+  {
+    "id": "cs005",
+    "name": "Village Farmer Reserve",
+    "description": "Small-batch coffee grown by local farmers in the valleys, known for its bright acidity.",
+    "tastingNotes": ["Citrus", "Stone Fruit", "Floral"],
+    "recommendedBrewingMethods": ["Pour-over", "Cold Brew", "Aeropress"],
+    "price": 19.5,
+    "img": "/images/beans/village-farmers-reserve.png"
+  },
+  {
+    "id": "cs006",
+    "name": "Local Peaberry Selection",
+    "description": "Rare peaberry coffee sourced from small-scale farms, prized for its unique intensity.",
+    "tastingNotes": ["Chocolate", "Berry", "Spice"],
+    "recommendedBrewingMethods": ["Espresso", "Drip Coffee", "French Press"],
+    "price": 20.99,
+    "img": "/images/beans/local-peaberry-selection.png"
+  },
+  {
+    "id": "cs007",
+    "name": "Peaberry Green-Bean",
+    "description": "Green peaberry coffee sourced from small-scale farms, prized for its unique intensity.",
+    "tastingNotes": ["Chocolate", "Berry", "Spice"],
+    "recommendedBrewingMethods": ["Espresso", "Drip Coffee", "French Press"],
+    "price": 20.99,
+    "img": "/images/beans/peaberry-green-bean.png"
+  }
+]

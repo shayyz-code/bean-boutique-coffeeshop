@@ -1,0 +1,29 @@
+[
+  {
+    "id": "so001",
+    "code": "HELLO35",
+    "title": "First-Time User Offer",
+    "offer": "35% Discount",
+    "brief": "Get 35% off on your first purchase! A warm welcome to Bean Boutique Cafe.",
+    "costover": 1,
+    "reducer": 35
+  },
+  {
+    "id": "so002",
+    "code": "BEAN2X",
+    "title": "Buy 1 Get Doubled Beans",
+    "offer": "2x Beans (50% Discount)",
+    "brief": "Buy one pack of coffee beans and get twice the amount at half the price!",
+    "costover": 20,
+    "reducer": 50
+  },
+  {
+    "id": "so003",
+    "code": "JAN20",
+    "title": "January Offer",
+    "offer": "20% Discount",
+    "brief": "Celebrate the new year with a 20% discount on orders over $10!",
+    "costover": 10,
+    "reducer": 20
+  }
+]

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events - Bean Boutique</title>
+    <meta
+      name="description"
+      content="The Best Coffeeshop in the Neighbourhood"
+    />
+    <meta name="keywords" content="cafe, coffee, brewing equipments,beans" />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Aung Min Khant" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="beanboutique.amk" />
+    <meta property="og:title" content="Bean Boutique" />
+    <meta
+      property="og:description"
+      content="The Best Coffeeshop in the Neighbourhood"
+    />
+    <meta property="og:image" content="https://beanboutique.amk/meta.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="beanboutique.amk" />
+    <meta property="twitter:title" content="Bean Boutique" />
+    <meta
+      property="twitter:description"
+      content="The Best Coffeeshop in the Neighbourhood"
+    />
+    <meta
+      property="twitter:image"
+      content="https://beanboutique.amk/meta.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/images/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/images/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/images/favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/images/favicon_io/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/9e64bcb56c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../styles/app-bg.css" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="../styles/events.css" />
+    <link rel="stylesheet" href="../styles/cart-panel.css" />
+    <script
+      src="../scripts/jquery-3.7.1.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"></script>
+  </head>
+  <body class="font-onest-normal">
+    <div id="particles-js" class="app-bg bg"></div>
+    <!-- Header and Navigation Bar -->
+    <header class="block bg-blur">
+      <nav class="font-onest-semibold">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li data-links="Beans,Equipments"><a href="#">Products</a></li>
+          <li><a href="./events.html">Events</a></li>
+          <li><a href="./offers.html">Offers</a></li>
+        </ul>
+        <ul>
+          <li>
+            <button id="account-a" onclick="openWelcomeModal()">
+              <i class="fa-solid fa-user"></i>
+            </button>
+          </li>
+          <li>
+            <button id="cart-a" onclick="openCart()">
+              <i class="fa-solid fa-bag-shopping"></i>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="main-events-title font-onest-black">
+        <h2>Events and Workshops</h2>
+      </section>
+      <div class="main-events"></div>
+      <section class="main-events-title font-onest-black">
+        <h3>Join Our Community</h3>
+      </section>
+      <div class="communities">
+        <a id="dc" href="https://discord.gg/vt7TCZuDyB">
+          <i class="fa-brands fa-discord"></i>
+          Join Bean Boutique Discord Server
+        </a>
+        <a id="tme" href="https://t.me/beanboutiquecoffee">
+          <i class="fa-brands fa-telegram"></i>
+          Join Bean Boutique Telegram Channel
+        </a>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer class="bg-blur">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="./products.html?query='beans'">Beans</a></li>
+        <li><a href="./products.html?query='equipments'">Equipments</a></li>
+        <li><a href="./events.html">Events</a></li>
+        <li><a href="./offers.html">Offers</a></li>
+      </ul>
+      <div>
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.snapchat.com/"
+              ><i class="fa-brands fa-snapchat"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.tiktok.com/"
+              ><i class="fa-brands fa-tiktok"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.whatsapp.com/"
+              ><i class="fa-brands fa-whatsapp"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.discord.com/"
+              ><i class="fa-brands fa-discord"></i
+            ></a>
+          </li>
+        </ul>
+        <p>&copy; 2025 Bean Boutique. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="../scripts/particles.js"></script>
+    <script src="../scripts/bg.js"></script>
+    <script src="../scripts/fetch.js"></script>
+    <script src="../scripts/events.js"></script>
+    <script src="../scripts/cart.js"></script>
+    <script src="../scripts/main.js"></script>
+  </body>
+</html>

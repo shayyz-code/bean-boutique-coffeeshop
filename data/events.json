@@ -1,0 +1,18 @@
+[
+  {
+    "id": "ev001",
+    "title": "Taste Coffee",
+    "img": "/images/events/first.png",
+    "date": "20th April",
+    "brief": "Experience the finest coffee flavors from around the world in a guided tasting session.",
+    "details": "Join us for an immersive coffee tasting event where you'll explore unique beans, brewing techniques, and flavor profiles. Whether you're a casual drinker or a coffee enthusiast, this session will enhance your appreciation for quality coffee."
+  },
+  {
+    "id": "ev002",
+    "title": "Home Brewing Mastery",
+    "img": "/images/events/sec.png",
+    "date": "17th May",
+    "brief": "Learn expert brewing techniques to make café-quality coffee at home.",
+    "details": "Discover the secrets to making the perfect cup of coffee at home. From choosing the right beans to mastering various brewing methods like French press and pour-over, this hands-on workshop will elevate your coffee game."
+  }
+]

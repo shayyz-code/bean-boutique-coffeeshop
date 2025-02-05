@@ -1,0 +1,57 @@
+[
+  {
+    "id": "be001",
+    "name": "Local Artisan Espresso Machine",
+    "description": "Crafted by local artisans, this machine combines style and performance for the perfect espresso.",
+    "usageTips": [
+      "Pair with freshly roasted local coffee beans for optimal flavor.",
+      "Keep the machine clean for consistent results."
+    ],
+    "price": 299.99,
+    "img": "/images/equipments/local-artisan-espresso-machine.png"
+  },
+  {
+    "id": "be002",
+    "name": "Handcrafted Wooden French Press",
+    "description": "A beautifully designed French press made from sustainably sourced local wood.",
+    "usageTips": [
+      "Use coarse-ground coffee for the best flavor.",
+      "Let the coffee steep for 4-5 minutes before pressing."
+    ],
+    "price": 49.99,
+    "img": "/images/equipments/handcrafted-wooden-french-press.png"
+  },
+  {
+    "id": "be003",
+    "name": "Ceramic Pour-Over Set",
+    "description": "Locally made ceramic pour-over set for brewing clean and bright coffee.",
+    "usageTips": [
+      "Use fresh, filtered water heated to about 200°F.",
+      "Pour slowly in circular motions for even extraction."
+    ],
+    "price": 34.95,
+    "img": "/images/equipments/ceramic-pour-over-set.png"
+  },
+  {
+    "id": "be004",
+    "name": "Bamboo Cold Brew Kit",
+    "description": "A sustainable cold brew setup made with locally sourced bamboo.",
+    "usageTips": [
+      "Use coarse-ground coffee and steep in cold water for 12-18 hours.",
+      "Store in a cool place while brewing."
+    ],
+    "price": 24.99,
+    "img": "/images/equipments/bamboo-cold-brew-kit.png"
+  },
+  {
+    "id": "be005",
+    "name": "Eco-Friendly Aeropress",
+    "description": "A portable and eco-friendly brewing aeropress for making flavorful coffee on the go.",
+    "usageTips": [
+      "Use medium-fine coffee grounds for optimal extraction.",
+      "Experiment with steeping times to suit your taste."
+    ],
+    "price": 29.95,
+    "img": "/images/equipments/eco-friendly-aeropress.png"
+  }
+]

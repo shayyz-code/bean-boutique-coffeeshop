@@ -1,0 +1,38 @@
+[
+  {
+    "id": "sb001",
+    "title": "Bean Starter Plan",
+    "price": 24.99,
+    "includes": [
+      "1 bag of freshly roasted beans (250g) each month",
+      "Access to new or seasonal blends",
+      "Free shipping on all orders"
+    ],
+    "perfectFor": "Coffee enthusiasts who want a monthly supply of fresh beans and love discovering new blends."
+  },
+  {
+    "id": "sb002",
+    "title": "Brew Master Plan",
+    "price": 49.99,
+    "includes": [
+      "2 bags of freshly roasted beans (250g each) per month",
+      "Exclusive access to premium or limited-edition beans",
+      "10% off brewing equipment and accessories",
+      "Free shipping on all orders"
+    ],
+    "perfectFor": "Avid coffee lovers who want variety and are looking to level up their brewing experience."
+  },
+  {
+    "id": "sb003",
+    "title": "Elite Coffee Enthusiast Plan",
+    "price": 89.99,
+    "includes": [
+      "3 bags of freshly roasted beans (250g each) per month",
+      "Exclusive, handpicked specialty beans (limited edition)",
+      "15% off all brewing equipment and accessories",
+      "Free shipping on all orders",
+      "A free coffee-related gift (e.g., grinder, brewer, or accessories) every 3 months"
+    ],
+    "perfectFor": "The true coffee connoisseur who wants to explore a variety of premium beans and get the best brewing gear delivered."
+  }
+]
