@@ -1,3 +1,5 @@
+/*  ====> checkout.js */
+
 /*    CHECKOUT    */
 const getCheckOut = () => JSON.parse(sessionStorage.getItem("checkout")) || null
 

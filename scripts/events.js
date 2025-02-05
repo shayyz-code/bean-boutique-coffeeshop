@@ -1,3 +1,5 @@
+/*  ====> events.js */
+
 const resEvents = fetchJSONData("events")
 
 resEvents.then((data) => {

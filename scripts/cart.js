@@ -1,3 +1,5 @@
+/*  ======> cart.js  */
+
 class Cart {
   constructor() {
     this.items = localStorage.getItem("cart-items")

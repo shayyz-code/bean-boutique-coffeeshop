@@ -1,3 +1,5 @@
+/*  =====> slideshow.js  */
+
 class Slide {
   constructor(element) {
     this.position = 0

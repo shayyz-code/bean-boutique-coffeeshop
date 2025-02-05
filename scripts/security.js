@@ -1,3 +1,5 @@
+/*  ====> security.js */
+
 async function deriveKey(email, salt) {
   const encoder = new TextEncoder()
   const keyMaterial = await window.crypto.subtle.importKey(

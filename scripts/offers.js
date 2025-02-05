@@ -1,3 +1,5 @@
+/*  ====> offers.js  */
+
 const resOffers = fetchJSONData("offers")
 
 renderOffers()

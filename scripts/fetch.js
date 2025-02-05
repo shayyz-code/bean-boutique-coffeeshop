@@ -1,3 +1,5 @@
+/*  ====> fetch.js  */
+
 async function fetchJSONData(target) {
   try {
     if (target === "products") {

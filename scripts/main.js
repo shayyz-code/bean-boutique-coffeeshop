@@ -1,6 +1,6 @@
-// DEFAULT CONFIG
+/* ====> main.js   */
 
-// Offer Modal
+// Welcome Modal
 const getAuth = () => {
   const user = Cookies.get("user") || sessionStorage.getItem("user") || null
   return JSON.parse(user)
